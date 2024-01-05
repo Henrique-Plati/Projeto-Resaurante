@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+    margin: 0; 
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    filter: blur(20%);
+}
+
+body{
+    font-size: 20px;
+    background-image: url('senha.jpg');
+    background-size: 100% 110% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.submit-button, .email{
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.411);
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    
+}
+.email::placeholder{
+    color: black;
+}
+
+
+
+  .submit-button.done {
+    background-color: #2ecc7080; /* Cor de concluído */
+  }
+  .submit-button.done:hover {
+    background-color: #2ecc7080; /* Cor de concluído */
+  }
+
+  .submit-button.done::after {
+    content: "\2713";
+    margin-left: 10px;
+  }
+
+.submit-button:hover{
+    background-color: rgba(0, 0, 0, 0.348);;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
